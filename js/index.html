@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <title>Shopping Cart</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="/log.png">
+    <script src="/main.js" async></script>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav">
+          <a>SHOP</a>
+          <form>
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            <button class="search" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <main>
+        <div class="items">
+            <div class='Item'> 
+                <button class="like">  
+                    <img src="/like.png"  alt="like">
+                 </button>
+                <img src="https://www.mtcgame.com/Images/Product/4771b94b-95de-4bd6-bdc6-5f9c2dbd5c8f.jpg"  alt="git card">
+                <p class="description"> League Of Legends EU <br>
+                    1000 Riot Points
+                     </p>
+                <div class="quantity">     
+                    <button class="minus"> - </button>
+                    <input type="text" class="input" value=" 1"/>
+                    <button class="plus"> + </button>
+                </div>
+                <p class="price"> 40.00 TND</p>
+                <button class="delete"> X </button>
+            </div>
+            <div class="Item">
+                <button class="like"> <img src="/like.png"  alt="like"> </button>
+                <img src="https://livecards.eu/pi/Google-Play-10-USD-13385.png" alt="Google play card">
+                <p class="description"> Google Play Card <br>
+                    10$
+                </p>
+                <div class="quantity">     
+                    <button class="minus" > - </button>
+                    <input  class= "input"type="text" value=" 1"/>
+                    <button class="plus"> + </button>
+                    
+                </div>
+                <p class="price"> 30.00 TND</p>
+                <button class="delete"> X </button>
+            </div>
+            
+        <div class="total-price">
+            <p>Total Price: </p>
+            <span class ="finalPrice"> 70 TND</span>
+        </div>
+      </main>
+      <footer>
+        © 2021.Tazza Shop.
+      </footer> 
+</body>
+</html>
